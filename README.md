@@ -10,10 +10,12 @@
 
 - Next.js
 
+- TypeScript
+
 - Hooks
 
 - Functional Components
 
 - Context API
 
-  
+  ![sdsd](https://user-images.githubusercontent.com/30630150/109223372-436f4780-7799-11eb-83d3-ba7d966865fa.png)
