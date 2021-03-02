@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Router from 'next/router';
 import styles from '../styles/pages/Login.module.css';
 
 export function LoginBox() {
@@ -10,6 +11,7 @@ export function LoginBox() {
 
   const handleButtonClick = () => {
     localStorage.setItem('username', username);
+    Router.push('/app');
   };
 
   return (
