@@ -10,8 +10,12 @@ export function LoginBox() {
   };
 
   const handleButtonClick = () => {
-    localStorage.setItem('username', username);
-    Router.push('/app');
+    if (username !== '') {
+      localStorage.setItem('username', username);
+      Router.push('/app');
+    } else {
+      alert('Insira um username válido!');
+    }
   };
 
   return (

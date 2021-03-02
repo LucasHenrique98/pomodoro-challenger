@@ -7,9 +7,12 @@ export function Profile() {
 
   return (
     <div className={styles.profileContainer}>
-      <img src="https://github.com/LucasHenrique98.png" alt="Lucas Henrique" />
+      <img
+        src={`https://github.com/${localStorage.getItem('username')}.png`}
+        alt="Lucas Henrique"
+      />
       <div>
-        <strong>Lucas Henrique</strong>
+        <strong>{localStorage.getItem('username')}</strong>
         <p>
           {' '}
           <img src="icons/level.svg" alt="level" /> Level {level}
