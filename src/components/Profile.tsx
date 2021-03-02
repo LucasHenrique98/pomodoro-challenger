@@ -9,7 +9,7 @@ export function Profile() {
     <div className={styles.profileContainer}>
       <img
         src={`https://github.com/${localStorage.getItem('username')}.png`}
-        alt="Lucas Henrique"
+        alt="username image"
       />
       <div>
         <strong>{localStorage.getItem('username')}</strong>
